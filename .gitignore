@@ -1,0 +1,34 @@
+*.pyc
+media/*
+logs/*
+*.mo
+mygpo/settings_prod.py
+mygpo/MAINTENANCE_MODE
+
+# API Docs
+doc/_build
+
+# vim swap files
+*.swp
+
+# static files copied by the collectstatic command
+mygpo/staticfiles/
+staticfiles/
+
+# virtualenv
+venv*
+
+# test coverage
+.coverage
+
+# envdirs
+envs
+
+# Jupyter Notebooks
+notebooks/
+
+.cache
+.pytest_cache
+
+# Visual Studio Code files
+.vscode
